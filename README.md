@@ -16,6 +16,11 @@
     4. Git push
 
 
+- EXTRA:
+    - I fucked up and I need to push code but it won't let me 
+    - Git stash
+        Stash whatever code is conflicting you will have to resolve later or use the extension on VSCode
+
     - Once you feel comfortable with pushing code and want to make your own repo to practice Github code updating you should look up 
         - Creating branches for features 
         - Pushing and merging code to master branch
