@@ -22,4 +22,14 @@
         - Delete branch once it has approved etc. 
 
 
- >
+ <Additional_notes
+ - "Can I run C++ and other language in this repo?
+    Yes just use code runner or right click and run code
+ - Doesn't work well with C and other libraries that require threads or other terminal control that we don't have in VSCode
+ - Purpose of the repo? 
+ - Save code old, new whatever
+    -Good for pasting different languages
+        - Create a new file name it whatever, BUT end it with the correct file type so .py for Python, .c for C .cpp for C++ and it will use the correct syntax highlighting for the language
+    - Helps seeing other code in another enviorment to help you run multiple codes without having to delete and overwrite the same code im sure you can figure this out by yourself its just another space to debug and run code
+    
+>
