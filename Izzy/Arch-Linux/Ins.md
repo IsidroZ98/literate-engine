@@ -26,7 +26,7 @@
 14. nano /etc/locale.gen
     uncomment #en_US.UTF-8
     locale-gen ..done
-    
+
 15. nano /etc/hostname 
     DW fk // IZ
 16. nano /etc/hosts
@@ -41,7 +41,7 @@
     a. Enter PW
     b. reenter
 20. pacman -S sudo
-21. usermod -aG wheel,audo,video,optical,storage username
+21. usermod -aG wheel,audio,video,optical,storage username
 22. groups username
 23. visudo
     a. delete "Uncomment to allow members of group wheel to execute aby command %wheel ALL=(ALL) ALL 
@@ -61,3 +61,14 @@
 32. shutdown now
 33. unmount iso file
 34. boot and pray 1:28:21
+35. user "username" pw
+36. sudo pacman -S xorg
+    a. default 1 enter yes
+37. sudo pacman -S virtualbox-guest-utils mesa mesa-libgl xf86-video-vmware
+38. sudo pacman -S lightdm lightdm-gtk-greeter lightdm-gtk-greeter-settings
+39. systemctl enable lightdm
+40. sudo pacman -S awesome kitty vicious rofi feh firefox brave
+41. sudo pacman -Sy
+42. reboot
+43. sudo pacman -S gnome 
+44. install awesome alone 
