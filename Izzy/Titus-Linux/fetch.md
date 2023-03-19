@@ -1,6 +1,8 @@
 1. pacaman -Sy git
 2. git clone https://github.com/ChrisTitusTech/ArchTitus
-3. username pw etc
+3. cd ArchTitus/
+4. ./archtitus.sh   
+5. username pw etc
     a. root--> sudo -i
-4. cd ArchTitus/
-5. ./archtitus.sh
+
+- Wifi connection made with default choose when installing everything 
