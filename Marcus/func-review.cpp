@@ -1,5 +1,5 @@
 /*
-rand num gen help 
+rand num gen help
 */
 #include <iostream> 
 #include <stdlib.h> // use srand && rand 
