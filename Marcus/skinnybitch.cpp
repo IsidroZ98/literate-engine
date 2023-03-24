@@ -3,9 +3,9 @@
 #include <iostream> 
 using namespace std; 
 
-void split(string muscle, int progress)
+void split(string workout, int progress)
 {
-    cout << "\nLift: " << muscle << "\nCurrent PR: " << progress;  
+    cout << "\nLift: " << workout << "\nCurrent PR: " << progress;  
 } 
 int main() 
 {
