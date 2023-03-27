@@ -15,3 +15,18 @@
 
 
 neofetch
+
+Created boot on win32 Disk Imager
+
+
+Freshboot
+
+iwctl
+device list
+
+adapter wlan0 set-property Powered on
+
+station device get-networks
+station network connect network id
+
+Proper setup just sudo pacman -Sy
