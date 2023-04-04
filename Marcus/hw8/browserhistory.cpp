@@ -1,6 +1,6 @@
 #include "browserhistory.h"
 
-BrowserHistory::BrowserHistory(string def_url){
+  BrowserHistory::BrowserHistory(string def_url){ // Creates empty Browser History to start holding websites.
 head=new Node();
   
 head->url=def_url;
@@ -15,12 +15,11 @@ current=head;
 
 }
 
-string BrowserHistory::current_url(){
+string BrowserHistory::current_url(){ // Returns the current website the user is on.
   return current->url;
 
 }
-
-void BrowserHistory::go_to_url(string url){
+  void BrowserHistory::go_to_url(string url){ // Goes to a new website and makes it the current one.
   
  Node* n=new Node();
 
@@ -38,31 +37,25 @@ void BrowserHistory::go_to_url(string url){
 
 }
 
-                               
-
-void BrowserHistory::back(){
+  void BrowserHistory::back(){ // Trails back to the last used website if there is one.
   
   if(can_go_back()){
   current=current->prev;
 }
-
 }
 
-                               
-
-bool BrowserHistory::can_go_back(){
+  bool BrowserHistory::can_go_back(){
 
 return current->prev!=NULL;
-
 }
 
                                
 
-int BrowserHistory::past_url_count(){
+int BrowserHistory::past_url_count(){ // Keeps track of the amount of websites behind the current one in Browser History.
 
 int c=0;
 
-for(Node* n=current->prev;n!=NULL;n=n->prev){
+  for(Node* n=current->prev;n!=NULL;n=n->prev){
 
 c++;
 }
@@ -71,18 +64,16 @@ c++;
 
                                
 
-void BrowserHistory::forward(){
+  void BrowserHistory::forward(){ // Takes you to the next website if there is one.
 
 if(can_go_forward()){
 
-current=current->next;
+  current=current->next;
 
 }
 }
 
-                               
-
-bool BrowserHistory::can_go_forward(){
+  bool BrowserHistory::can_go_forward(){
   
  return current->next!=NULL;
 
@@ -90,7 +81,7 @@ bool BrowserHistory::can_go_forward(){
 
                                
 
-int BrowserHistory::future_url_count(){
+  int BrowserHistory::future_url_count(){ // Keeps track of the websites in front of the current one in Browser History,
 
 int c=0;
   
@@ -100,3 +91,4 @@ int c=0;
 }
   return c;
 }
+
