@@ -17,3 +17,8 @@ cd folder
 makepkg -si 
 
 password so maybe be in root already before this command 
+
+editing certain files 
+
+sudo nano /etc/systemd/systemd.conf 
+commands on bottom of window 
