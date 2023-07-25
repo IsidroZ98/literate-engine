@@ -36,8 +36,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/Marcus/Documents/GitHub/literate-engine/Marcus/LabAssignment5",
-      "program": "c:/Users/Marcus/Documents/GitHub/literate-engine/Marcus/LabAssignment5/build/Debug/outDebug",
+      "cwd": "c:/Users/Marcus/Documents/GitHub/literate-engine/Marcus",
+      "program": "c:/Users/Marcus/Documents/GitHub/literate-engine/Marcus/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
