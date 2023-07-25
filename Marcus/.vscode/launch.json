@@ -3,6 +3,27 @@
   "configurations": [
     {
       "type": "java",
+      "name": "LabAssignment04Part3",
+      "request": "launch",
+      "mainClass": "LabAssignment04Part3",
+      "projectName": "Marcus_f4a82219"
+    },
+    {
+      "type": "java",
+      "name": "LabAssignment04Part2",
+      "request": "launch",
+      "mainClass": "LabAssignment04Part2",
+      "projectName": "Marcus_f4a82219"
+    },
+    {
+      "type": "java",
+      "name": "LabAssignment04Part1",
+      "request": "launch",
+      "mainClass": "LabAssignment04Part1",
+      "projectName": "Marcus_f4a82219"
+    },
+    {
+      "type": "java",
       "name": "LabAssignment7Part1",
       "request": "launch",
       "mainClass": "LabAssignment7.LabAssignment7Part1",
