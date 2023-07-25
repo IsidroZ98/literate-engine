@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "LabAssignment06",
+      "request": "launch",
+      "mainClass": "LabAssignment6.LabAssignment06",
+      "projectName": "Marcus_f4a82219"
+    },
+    {
+      "type": "java",
       "name": "LabAssignment5Part1",
       "request": "launch",
       "mainClass": "LabAssignment5Part1",
