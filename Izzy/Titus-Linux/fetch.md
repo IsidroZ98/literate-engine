@@ -30,3 +30,5 @@ station device get-networks
 station network connect network id
 
 Proper setup just sudo pacman -Sy
+
+pacman -Sy archlinux-keyring
