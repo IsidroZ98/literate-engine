@@ -9,9 +9,9 @@ void split(string workout, int progress)
 } 
 int main() 
 {
-    split("BENCH", 255); 
+    split("BENCH", 265); 
     "\n";
-    split("DB PRESS", 105); 
+    split("DB PRESS", 110); 
     "\n"; 
     split("DEADLIFT", 350);
     "\n";
