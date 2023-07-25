@@ -1,3 +1,9 @@
+/////////////////////////
+// CSCI 3326.01
+// Summer II 2023
+// Lab Assignment 05 Part 2
+// <Marcus Gutierrez> 
+/////////////////////////
 import java.util.Random;
 
 public class LabAssignment5Part2 {
