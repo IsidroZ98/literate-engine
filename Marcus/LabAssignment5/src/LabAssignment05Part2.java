@@ -6,7 +6,7 @@
 /////////////////////////
 import java.util.Random;
 
-public class LabAssignment5Part2 {
+public class LabAssignment05Part2 {
     public static void main(String[] args) {
         char[][] gameBoard = new char[5][5];
         int totalSpaces = gameBoard.length * gameBoard[0].length;

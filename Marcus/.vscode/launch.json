@@ -3,6 +3,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "LabAssignment05Part2",
+      "request": "launch",
+      "mainClass": "LabAssignment05Part2",
+      "projectName": "Marcus_f4a82219"
+    },
+    {
+      "type": "java",
+      "name": "LabAssignment05Part1",
+      "request": "launch",
+      "mainClass": "LabAssignment05Part1",
+      "projectName": "Marcus_f4a82219"
+    },
+    {
+      "type": "java",
       "name": "LabAssignment04Part3",
       "request": "launch",
       "mainClass": "LabAssignment04Part3",
