@@ -24,7 +24,7 @@ public class LabAssignment05Part2 {
 
         Random random = new Random();
 
-        while (remainingSpaces > (totalSpaces / 2)) {
+        while (remainingSpaces >= (totalSpaces / 2)) {
             for (int i = 0; i < gameBoard.length; i++) {
                 for (int j = 0; j < gameBoard[i].length; j++) {
                     System.out.print(gameBoard[i][j] + " ");
@@ -38,7 +38,7 @@ public class LabAssignment05Part2 {
             gameBoard[x][y] = ' ';
 
             switch (direction) {
-                case 0: // Move up
+                case 0:
                     if (x > 0) {
                         x--;
                     }
@@ -62,12 +62,6 @@ public class LabAssignment05Part2 {
             gameBoard[x][y] = '@';
 
             remainingSpaces--;
-
-            try {
-                Thread.sleep(1000);
-            } catch (InterruptedException e) {
-                e.printStackTrace();
-            }
         }
     }
 }
