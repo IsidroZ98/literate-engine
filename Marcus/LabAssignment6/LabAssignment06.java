@@ -1,3 +1,9 @@
+/////////////////////////
+// CSCI 3326.01
+// Summer II 2023
+// Lab Assignment 06
+// <Marcus Gutierrez> 
+/////////////////////////
 package LabAssignment6;
 
 public class LabAssignment06 {
