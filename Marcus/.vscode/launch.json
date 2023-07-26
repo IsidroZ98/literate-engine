@@ -3,6 +3,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "LabAssignment07part1",
+      "request": "launch",
+      "mainClass": "LabAssignment7.LabAssignment07part1",
+      "projectName": "Marcus_f4a82219"
+    },
+    {
+      "type": "java",
+      "name": "LabAssignment7Part1",
+      "request": "launch",
+      "mainClass": "LabAssignment7.LabAssignment07Part1Package.LabAssignment7Part1",
+      "projectName": "Marcus_f4a82219"
+    },
+    {
+      "type": "java",
       "name": "CBear",
       "request": "launch",
       "mainClass": "CBear",

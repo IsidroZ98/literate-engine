@@ -1,5 +1,4 @@
-
-package LabAssignment7.LabAssignment07Package;
+package LabAssignment07Package;
 
 public class PackageClass {
     public void displayMessage() {
