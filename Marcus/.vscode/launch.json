@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "CBear",
+      "request": "launch",
+      "mainClass": "CBear",
+      "projectName": "Marcus_f4a82219"
+    },
+    {
+      "type": "java",
       "name": "LabAssignment05Part2",
       "request": "launch",
       "mainClass": "LabAssignment05Part2",
