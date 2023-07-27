@@ -1,3 +1,9 @@
+/////////////////////////
+// CSCI 3326.01
+// Summer II 2023
+// Lab Assignment 08
+// <Marcus Gutierrez> 
+/////////////////////////
 import java.io.*;
 
 public class LabAssignment08 {
