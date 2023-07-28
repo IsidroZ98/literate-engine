@@ -7,12 +7,13 @@
 import java.io.*;
 
 public class LabAssignment08 {
-    public static void main(String[] args) {
+    public static void main(String []args) {
         try {
             BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
             PrintWriter writer = new PrintWriter(new FileWriter("credentials.txt"));
 
-            while (true) {
+            while (true) 
+                {
                 System.out.println("Program start. ");
                 System.out.print("Username: (or 'exit' to stop): ");
                 String username = reader.readLine();
@@ -33,8 +34,9 @@ public class LabAssignment08 {
                     break;
                 }
             }
-            writer.close();
 
+            writer.close();
+            
             BufferedReader fileReader = new BufferedReader(new FileReader("credentials.txt"));
             String line;
             System.out.println("List of usernames and passwords: \n");
@@ -45,7 +47,7 @@ public class LabAssignment08 {
             fileReader.close();
             System.out.println("\nProgram end."); 
 
-        } catch (IOException e) {
+        } catch (IOException  e) {
             e.printStackTrace();
         }
     }

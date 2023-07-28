@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "LabAssignment08",
+      "request": "launch",
+      "mainClass": "LabAssignment08",
+      "projectName": "Marcus_f4a82219"
+    },
+    {
+      "type": "java",
       "name": "LabAssignment07part1",
       "request": "launch",
       "mainClass": "LabAssignment7.LabAssignment07part1",
@@ -92,8 +99,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/Marcus/Documents/GitHub/literate-engine/Marcus",
-      "program": "c:/Users/Marcus/Documents/GitHub/literate-engine/Marcus/build/Debug/outDebug",
+      "cwd": "c:/Users/Marcus/Documents/GitHub/literate-engine/Marcus/LabAssignment8",
+      "program": "c:/Users/Marcus/Documents/GitHub/literate-engine/Marcus/LabAssignment8/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
