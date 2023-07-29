@@ -5,38 +5,34 @@
 // <Marcus Gutierrez> 
 /////////////////////////
 import java.io.*;
+import java.util.Scanner;
 
 public class LabAssignment08 {
-    public static void main(String []args) {
+    public static void main(String[] args) {
         try {
-            BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
-            PrintWriter writer = new PrintWriter(new FileWriter("credentials.txt"));
+            try (Scanner scanner = new Scanner(System.in)) {
+                PrintWriter writer = new PrintWriter(new FileWriter("credentials.txt"));
 
-            while (true) 
-                {
-                System.out.println("Program start. ");
-                System.out.print("Username: (or 'exit' to stop): ");
-                String username = reader.readLine();
-                
-                if (username.equalsIgnoreCase("exit")) {
-                    break;
+                while (true) {
+                    System.out.println("Program start. ");
+                    System.out.print("Username: ");
+                    String username = scanner.nextLine();
+
+                    System.out.print("Password: ");
+                    String password = scanner.nextLine();
+
+                    writer.println(username + "\t" + password);
+                    writer.flush();
+
+                    System.out.print("Do you want to input another username and password? (Y/N): ");
+                    String input = scanner.nextLine();
+                    if (input.equalsIgnoreCase("N")) {
+                        break;
+                    }
                 }
-                
-                System.out.print("Password: ");
-                String password = reader.readLine();
-                
-                writer.println(username + "\t" + password);
-                writer.flush();
-                
-                System.out.print("Do you want to input another username and password? (Y/N): ");
-                String input = reader.readLine();
-                if (input.equalsIgnoreCase("N")) {
-                    break;
-                }
+
+                writer.close();
             }
-
-            writer.close();
-            
             BufferedReader fileReader = new BufferedReader(new FileReader("credentials.txt"));
             String line;
             System.out.println("List of usernames and passwords: \n");
@@ -45,10 +41,11 @@ public class LabAssignment08 {
                 System.out.println("Username: " + credentials[0] + "         Password: " + credentials[1]);
             }
             fileReader.close();
-            System.out.println("\nProgram end."); 
+            System.out.println("\nProgram end.");
 
-        } catch (IOException  e) {
+        } catch (IOException e) {
             e.printStackTrace();
         }
     }
 }
+
