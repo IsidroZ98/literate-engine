@@ -15,7 +15,7 @@ public class LabAssignment08 {
 
                 while (true) {
                     System.out.println("Program start. ");
-                    System.out.print("Username: ");
+                    System.out.print("\nUsername: ");
                     String username = scanner.nextLine();
 
                     System.out.print("Password: ");
