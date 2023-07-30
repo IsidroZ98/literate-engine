@@ -15,7 +15,6 @@ public class LabAssignment09 {
 
         System.out.println("\nShowing information about this bird...");
 
-        // Instantiate a Bird
         Bird bird = new Bird("Parakeet", 2, 0.1);
         System.out.println("The bird is a(n) " + bird.getBreed() + " has 2 leg(s), and weighs " + bird.getWeight() + " pound(s).");
         bird.flying();
