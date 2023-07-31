@@ -1,3 +1,9 @@
+/////////////////////////
+// CSCI 3326.01
+// Summer II 2023
+// Homework Assignment 01
+// <Marcus Gutierrez> 
+/////////////////////////
 import java.util.Scanner;
 
 public class HomeworkAssignment01Question2 {

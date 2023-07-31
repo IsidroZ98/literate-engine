@@ -21,16 +21,16 @@ public class HomeworkAssignment01Question1 {
             double salaryInPennies = 0.01; 
             double totalPayInPennies = 0;
 
-            System.out.println("Day\tSalary (in pennies)\tTotal Pay (in pennies)");
+            System.out.println("Day \t Salary (in pennies) \t Total Pay (in pennies)");
 
             for (int day = 1; day <= numberOfDays; day++) {
                 totalPayInPennies += salaryInPennies;
-                System.out.println(day + "\t" + dollarFormat.format(salaryInPennies) + "\t\t\t" + dollarFormat.format(totalPayInPennies));
-                salaryInPennies *= 1.75; 
+                System.out.println(day + "\t" + dollarFormat.format(salaryInPennies) + "\t \t \t" + dollarFormat.format(totalPayInPennies));
+                salaryInPennies *= 2; 
             }
 
-            double totalPayInDollars = totalPayInPennies / 100.0;
-            System.out.println("\nTotal Pay: " + dollarFormat.format(totalPayInDollars));
+            double totalPayInDollars = totalPayInPennies;
+            System.out.println("Total Pay: " + dollarFormat.format(totalPayInDollars));
         }
     }
 }

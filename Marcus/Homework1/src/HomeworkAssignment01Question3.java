@@ -1,9 +1,16 @@
- import java.util.Random;
+/////////////////////////
+// CSCI 3326.01
+// Summer II 2023
+// Homework Assignment 01
+// <Marcus Gutierrez> 
+/////////////////////////
+import java.util.Random;
 import java.util.Scanner;
 
 public class HomeworkAssignment01Question3 {
-    public static void main(String[] args) {
-        try (Scanner scanner = new Scanner(System.in)) {
+    public static void main(String []args) {
+        try (Scanner scanner = new Scanner(System.in)) 
+        {
             Random random = new Random();
 
             int minNumber = 1;
