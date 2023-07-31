@@ -4,10 +4,10 @@ public class Car {
     double price; 
     int mileage;
 
-    public void display() {
-        System.out.printf("Make: %s", make); 
-        System.out.printf("Model: %s", model); 
-        System.out.printf("Price: %.2f", price); 
-        System.out.printf("Mileage  %d", mileage);
+        void display() {
+        System.out.printf("Make: %s\n", make); 
+        System.out.printf("Model: %s\n", model); 
+        System.out.printf("Price: $%.2f\n", price); 
+        System.out.printf("Mileage:  %d\n", mileage);
     }
 }

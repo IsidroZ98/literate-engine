@@ -1,8 +1,8 @@
 class SportsCar extends Car {
     boolean hasAccessories; 
-@Override
-    public void display() {
+        @Override
+        void display() {
         super.display(); 
-        System.out.printf("Has Accessories: ", hasAccessories); 
+        System.out.printf("Has Accessories?: ", hasAccessories); 
     }
 }
