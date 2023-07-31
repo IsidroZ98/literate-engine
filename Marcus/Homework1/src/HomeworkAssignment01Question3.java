@@ -18,15 +18,15 @@ public class HomeworkAssignment01Question3 {
 
             int maxTries = maxNumber / 10; 
 
-            System.out.println("Welcome to the Number Guessing Game!");
-            System.out.println("Guess a number between " + minNumber + " and " + maxNumber + ".");
-            System.out.println("You have " + maxTries + " tries to guess the number.");
+            System.out.println("The minimum number can be as low as 1 or as high as 150. Depending on the random generated number set you receive.\n");
+            System.out.println("Guess a number between " + minNumber + " and " + maxNumber);
+            System.out.println("You have " + maxTries + " tries to guess the correct number.");
 
             int randomNumber = random.nextInt(maxNumber - minNumber + 1) + minNumber;
             int numberOfTries = 0;
 
             while (numberOfTries < maxTries) {
-                System.out.print("Enter your guess: ");
+                System.out.print("Please enter your guess: ");
                 int userGuess = scanner.nextInt();
                 numberOfTries++;
 
@@ -40,7 +40,7 @@ public class HomeworkAssignment01Question3 {
                 }
             }
 
-            System.out.println("Sorry, you ran out of tries. The number was: " + randomNumber);
+            System.out.println("You failed, the number was: " + randomNumber);
         }
     }
 }
