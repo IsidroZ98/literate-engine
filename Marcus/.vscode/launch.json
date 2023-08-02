@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "BearClaw",
+      "request": "launch",
+      "mainClass": "BearClaw",
+      "projectName": "Marcus_f4a82219"
+    },
+    {
+      "type": "java",
       "name": "LabAssignment08",
       "request": "launch",
       "mainClass": "LabAssignment08",
@@ -99,8 +106,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/Marcus/Documents/GitHub/literate-engine/Marcus/LabAssignment8",
-      "program": "c:/Users/Marcus/Documents/GitHub/literate-engine/Marcus/LabAssignment8/build/Debug/outDebug",
+      "cwd": "c:/Users/Marcus/Documents/GitHub/literate-engine/Marcus/demo",
+      "program": "c:/Users/Marcus/Documents/GitHub/literate-engine/Marcus/demo/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [

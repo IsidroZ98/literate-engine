@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.FlowPane?>
+
+<FlowPane xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="PrimaryController">
+    <children>
+        <Label text="Player's choice: " />
+        <Label fx:id="playerChoiceLabel" />
+        <Label text="Computer's choice: " />
+        <Label fx:id="computerChoiceLabel" />
+        <Label fx:id="resultLabel" />
+        <Button text="Rock" onAction="#onChoiceButtonClick" id="1" />
+        <Button text="Paper" onAction="#onChoiceButtonClick" id="2" />
+        <Button text="Scissors" onAction="#onChoiceButtonClick" id="3" />
+    </children>
+</FlowPane>
