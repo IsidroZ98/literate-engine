@@ -6,51 +6,51 @@ import java.util.Random;
 
 public class PrimaryController {
     @FXML
-    private Label playerChoiceLabel;
+    public Label playerChoiceLabel;
     @FXML
-    private Label computerChoiceLabel;
+    public Label computerChoiceLabel;
     @FXML
-    private Label resultLabel;
+    public Label resultLabel;
 
     @FXML
-    private void initialize() {
+    public void initialize() {
 
     }
 
     @FXML
-    private void onChoiceButtonClick(ActionEvent event) {
+    public void onChoiceButtonClick(ActionEvent event) {
         int playerChoice = Integer.parseInt(((Button) event.getSource()).getId());
         Random random = new Random();
         int computerChoice = random.nextInt(3) + 1;
 
 
-        playerChoiceLabel.setText("Player's choice: " + getChoiceString(playerChoice));
-        computerChoiceLabel.setText("Computer's choice: " + getChoiceString(computerChoice));
+        playerChoiceLabel.setText(" Player's choice: \n" + getChoiceString(playerChoice));
+        computerChoiceLabel.setText(" Computer's choice: \n" + getChoiceString(computerChoice));
 
 
         String result = "";
         if (playerChoice == computerChoice) {
-            result = "It's a tie!";
+            result = " It's a tie! GG's ";
         } else if ((playerChoice == 1 && computerChoice == 3) ||
                    (playerChoice == 2 && computerChoice == 1) ||
                    (playerChoice == 3 && computerChoice == 2)) {
-            result = "You won!";
+            result = " YOU WON! ";
         } else {
-            result = "You lose!";
+            result = " You lose! :( ";
         }
-        resultLabel.setText("Result: " + result);
+        resultLabel.setText(" Result: " + result);
     }
 
-    private String getChoiceString(int choice) {
+    public String getChoiceString(int choice) {
         switch (choice) {
             case 1:
-                return "Rock";
+                return " Rock";
             case 2:
-                return "Paper";
+                return " Paper";
             case 3:
-                return "Scissors";
+                return " Scissors";
             default:
-                return "DISQUALIFIED, YOU DID NOT INPUT 1, 2, OR 3.";
+                return " DISQUALIFIED ";
         }
     }
 }
