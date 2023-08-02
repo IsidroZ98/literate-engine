@@ -14,7 +14,7 @@ public class PrimaryController {
 
     @FXML
     private void initialize() {
-        // Nothing to initialize in this case
+
     }
 
     @FXML
@@ -23,11 +23,11 @@ public class PrimaryController {
         Random random = new Random();
         int computerChoice = random.nextInt(3) + 1;
 
-        // Update labels with player and computer choices
+
         playerChoiceLabel.setText("Player's choice: " + getChoiceString(playerChoice));
         computerChoiceLabel.setText("Computer's choice: " + getChoiceString(computerChoice));
 
-        // Determine the result and update the result label
+
         String result = "";
         if (playerChoice == computerChoice) {
             result = "It's a tie!";
