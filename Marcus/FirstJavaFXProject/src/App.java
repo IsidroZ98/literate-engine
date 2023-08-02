@@ -1,3 +1,10 @@
+/////////////////////////
+// CSCI 3326.01
+// Summer II 2023
+// Lab Assignment 11A
+// <Marcus Gutierrez> 
+/////////////////////////
+
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
