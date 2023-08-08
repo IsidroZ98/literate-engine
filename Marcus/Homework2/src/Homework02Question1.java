@@ -29,7 +29,7 @@ public class Homework02Question1 {
             essay.generateRandomPoints();
 
             try {
-                PrintWriter writer = new PrintWriter("essay_scores.txt");
+                PrintWriter writer = new PrintWriter("essayscores.txt");
                 writer.println("Grammar Points: " + grammarPoints);
                 writer.println("Spelling Points: " + spellingPoints);
                 writer.println("Correct Length Points: " + lengthPoints);
@@ -37,7 +37,7 @@ public class Homework02Question1 {
                 writer.println("Total Score: " + essay.getScore());
                 writer.println("Letter Grade: " + essay.getGrade());
                 writer.close();
-                System.out.println("Essay scores saved to 'essay_scores.txt'.");
+                System.out.println("Essay scores saved to 'essayscores.txt'.");
 
                 Scanner reader = new Scanner(new File("essay_scores.txt"));
                 while (reader.hasNextLine()) {
