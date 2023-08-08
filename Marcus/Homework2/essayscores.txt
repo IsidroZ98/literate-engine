@@ -2,5 +2,5 @@ Grammar Points: 30
 Spelling Points: 20
 Correct Length Points: 20
 Content Points: 30
-Total Score: 36.0
+Total Score: 20.0
 Letter Grade: F
