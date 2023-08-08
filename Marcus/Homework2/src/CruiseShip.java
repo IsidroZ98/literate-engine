@@ -1,5 +1,5 @@
 class CruiseShip extends Ship {
-    private int maxPassengers;
+    public int maxPassengers;
 
     public CruiseShip(String name, int year, int maxPassengers) {
         super(name, year);

@@ -38,7 +38,7 @@ public class Homework02Question2 {
                 BufferedReader reader = new BufferedReader(new FileReader("ships.txt"));
                 String line;
                 System.out.println("\n Ship Info:");
-                System.out.println("=================");
+                System.out.println("============================================================================================");
                 System.out.printf("%-15s %-15s %-15s %-20s %-20s%n", "Ship Type", "Ship Name", "Year", "Cargo Capacity(in tons)", "Max Passengers (100-500)");
 
                 while ((line = reader.readLine()) != null) {

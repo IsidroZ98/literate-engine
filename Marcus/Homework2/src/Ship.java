@@ -1,14 +1,12 @@
-
 class Ship {
-    private String name;
-    private int year;
+    public String name;
+    public int year;
 
     public Ship(String name, int year) {
         this.name = name;
         this.year = year;
     }
 
-    // Accessors and Mutators
     public String getName() {
         return name;
     }

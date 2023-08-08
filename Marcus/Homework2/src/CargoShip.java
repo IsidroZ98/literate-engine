@@ -1,5 +1,5 @@
 class CargoShip extends Ship {
-    private int cargoCapacity;
+    public int cargoCapacity;
 
     public CargoShip(String name, int year, int cargoCapacity) {
         super(name, year);
