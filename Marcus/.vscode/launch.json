@@ -3,6 +3,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "App",
+      "request": "launch",
+      "mainClass": "TRYAGAIN2.src.App",
+      "projectName": "Marcus_f4a82219"
+    },
+    {
+      "type": "java",
+      "name": "Main",
+      "request": "launch",
+      "mainClass": "com.example.Main",
+      "projectName": "tryagain"
+    },
+    {
+      "type": "java",
       "name": "BearClaw",
       "request": "launch",
       "mainClass": "BearClaw",
