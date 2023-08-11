@@ -1,0 +1,3 @@
+interface CarInterface {
+    void abstractMethod();
+}
