@@ -1,0 +1,1 @@
+<Installed rust script under integrated terminal of this folder>
