@@ -15,8 +15,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/Marcus/Documents/GitHub/literate-engine",
-      "program": "c:/Users/Marcus/Documents/GitHub/literate-engine/build/Debug/outDebug",
+      "cwd": "c:/Users/Marcus/Documents/GitHub/literate-engine/Marcus/CS2380Labs/Lab2",
+      "program": "c:/Users/Marcus/Documents/GitHub/literate-engine/Marcus/CS2380Labs/Lab2/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [

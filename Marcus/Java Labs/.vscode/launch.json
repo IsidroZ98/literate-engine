@@ -5,6 +5,13 @@
       "type": "java",
       "name": "App",
       "request": "launch",
+      "mainClass": "com.example/com.example.App",
+      "projectName": "demo"
+    },
+    {
+      "type": "java",
+      "name": "App",
+      "request": "launch",
       "mainClass": "TRYAGAIN2.src.App",
       "projectName": "Marcus_f4a82219"
     },
