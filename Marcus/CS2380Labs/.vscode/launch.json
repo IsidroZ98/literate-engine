@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/Marcus/Documents/GitHub/literate-engine/Marcus/CS2380Labs/Lab5",
-      "program": "c:/Users/Marcus/Documents/GitHub/literate-engine/Marcus/CS2380Labs/Lab5/build/Debug/outDebug",
+      "cwd": "c:/Users/Marcus/Documents/GitHub/literate-engine/Marcus/CS2380Labs/Lab7",
+      "program": "c:/Users/Marcus/Documents/GitHub/literate-engine/Marcus/CS2380Labs/Lab7/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
