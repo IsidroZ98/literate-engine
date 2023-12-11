@@ -1,0 +1,180 @@
+/*
+we can type out our study guide here 
+
+code analysis problems: 
+
+1) The following is a valid C++ enum type 
+enum places {1ST, 2ND, 3RD, 4TH}; TRUE OR FALSE? ANSWER: FALSE
+EXPLAINATION: ENUM TYPES CANNOT BEGIN WITH A NUMBER, THE CORRECT NOTATION WOULD BE {FIRST, SECOND, THIRD, FOURTH}
+
+2) No arithmatic operations are allowed on the enumeration type 
+TRUE OR FALSE? ANSWER: FALSE
+EXPLAINATION: YOU CAN PERFORM ARITHMETIC OPERATIONS ON ENUM TYPES IN C++. 
+
+3) A function cannot return the value of an enumeration type. 
+TRUE OR FALSE? ANSWER: FALSE 
+EXPLAINATION: IN C++ A FUNCTION CAN RETURN A VALUE OF AN ENUM TYPE. 
+
+4) AN ENUMERATION TYPE CAN BE PASSED AS A PARAMETER TO A FUNCTION ONLY BY A VALUE. 
+TRUE OR FALSE? ANSWER: FALSE
+EXPLAINATION: AN ENUM TYPE CAN BE PASSED AS A PARAMETER TO A FUNCTION BY BOTH ITS VALUE AND ITS REFERENCE. 
+
+5) IN C++, [] IS CALLED THE ARRAY SUBSCRIPT OPERATOR. 
+TRUE OR FALSE? ANSWER: TRUE, IN C++ THE "[]" IS CALLED THE ARRAY SUBSCRIPT OPERATOR. IT IS USED TO ACCESS ELEMENTS IN AN ARRAY BY SPECIFYING INDEX. 
+
+6) SUPPOSE THAT YOU HAVE THE FOLLOWING DECLARATION. 
+enum cars{FORD, GM, TOYOTA, HONDA}; 
+cars domesticCars = FORD; 
+
+the statement: 
+
+domesticCars = static_cast<cars>(domesticCars + 1); 
+sets the value of domesticCars to: 
+a. FORD b. GM c. TOYOTA d. HONDA ANSWER: GM 
+EXPLAINATION: the enum has assigned cars to array value of 4 elements, so after calling our cars array, 
+we then set domesticCars to the value FORD; With FORD being our first option, we continue with our call and with the static cast calling we add 1 to our call, 
+which then gives us FORD + 1, and after we add our 1 we then go to the next calling which leaves us with GM. 
+
+7) Consider the declaration: 
+enum sports{BASKETBALL, FOOTBALL, HOCKEY, BASEBALL, SOCCER}; 
+
+which of the following is true? a. SOCCER --= BASEBALL b. BASEBALL++ = SOCCER c. HOCKEY + FOOTBALL > SOCCER d. FOOTBALL <= SOCCER
+ANSWER: d. FOOTBALL <= SOCCER
+EXPLAINATION: when we set our enums up we assigned these 5 sports a value, with basketball being 0 and soccer being 5. 
+So when we see our answer choices we can just pretend they our the values assigned like the computer is reading them as,
+and we get FOOTBALL <= SOCCER because FOOTBALL is equal to the value "1" in our enum and SOCCER is equal to the value "4", making this a valid statement. 
+
+8) What is the output of the following code? 
+enum courses {ALGEBRA, BASIC. PASCAL, PHILOSPHY, ANALYSIS}; 
+courses registered; 
+registered = ALGEBRA; 
+cout << registered << endl; a. ALGEBRA, b. 0, c. 1, d. "ALGEBRA" 
+ANSWER: 0. 
+EXPLAINATION: WHEN WE SET UP OUR ENUM WE ASSIGNED THE COURSES VALUES AND ALGEBRA BEING THE FIRST ONE WAS ASSIGNED THE VALUE 0. 
+SO WHEN THE COMPUTER IS TOLD TO PRINT OUT ALGEBRA IT READS IT AS OUR FIRST ASSIGNED VALUE WHICH BEGINS WITH "0". 
+
+9) Which of the following statements creates an anonymous type? 
+a. enum {};, b. enum {A, B, C, D, F} grades;, c. enum grades {A, B, C, D, F};, d. enum grades {}; 
+ANSWER: 
+EXPLAINATION: 
+
+10) In C++, __ is called the scope resolution operator. 
+
+11) The scope of a namespace member is local to the __. 
+
+12) Given the following code
+namespace globalType{
+    void PrintResult(); 
+}
+13) 
+14) 
+15) 
+16) 
+17) 
+18) 
+19) 
+20) 
+21) 
+22) 
+23) 
+24) 
+25) 
+26) 
+27) 
+28) 
+29) 
+30) 
+31)
+32)
+33) 
+34) 
+35) 
+36)
+37) 
+38) 
+39) 
+40) 
+41) 
+42) 
+43) 
+44)
+45) 
+46) 
+47) 
+48) 
+49) 
+50) 
+51) 
+52) 
+53)
+54) 
+55) 
+56) 
+57) 
+58) 
+59)
+60)
+61) 
+62) 
+63) 
+64) 
+65)
+66) 
+67) 
+68) 
+69) 
+70) 
+71) 
+72) 
+73) 
+74) 
+75) 
+76) 
+77) 
+78) 
+79) 
+80) 
+81) 
+82) 
+83) 
+84) 
+85) 
+
+
+
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
